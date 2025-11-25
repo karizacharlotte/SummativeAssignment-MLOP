@@ -8,7 +8,7 @@ This is my MLOps summative project that demonstrates a complete machine learning
 > **[YouTube Demo Link]** _(Add your YouTube link here after recording)_
 
 ## Deployed URL
-> **[Cloud Run URL]** _(Add deployment URL if you deploy to cloud)_
+> **http://localhost:8501** - Streamlit Web UI (Local Deployment)
 
 ---
 
@@ -272,34 +272,6 @@ Run Locust targeting your Cloud Run URL and compare latency/throughput for 1, 3,
    - Training history plots
 
 ---
-
-## Rubric Compliance Checklist
-
-### Video Demo (5 pts)
-- [ ] Camera on, clear audio
-- [ ] Demonstrate prediction
-- [ ] Demonstrate retraining
-
-### Retraining Process (10 pts)
-- [x] Data upload via `/upload` endpoint
-- [x] Preprocessing in `src/preprocessing.py`
-- [x] Retraining uses custom model (`models/model.h5`)
-
-### Prediction Process (10 pts)
-- [x] Single image prediction via `/predict` and UI
-- [x] Correct label displayed
-
-### Evaluation (10 pts)
-- [x] Notebook with clear preprocessing
-- [x] Optimization (early stopping, dropout, transfer learning)
-- [x] 4+ metrics (accuracy, precision, recall, F1)
-
-### Deployment (10 pts)
-- [x] Dockerized FastAPI + Streamlit UI
-- [x] Data visualizations in UI
-
----
-
 ## What I Used
 
 **Machine Learning:**
