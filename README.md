@@ -5,7 +5,7 @@ This is my MLOps summative project that demonstrates a complete machine learning
 ---
 
 ## Video Demo
-> https://youtu.be/w_h3Jhk3sRw
+> **[YouTube Demo Link]** _(Add your YouTube link here after recording)_
 
 ## Deployed URL
 > **http://localhost:8501** - Streamlit Web UI (Local Deployment)
@@ -142,7 +142,7 @@ UI will open at `http://localhost:8501`. Features:
 
 ---
 
-## 🐳 Docker Instructions
+## Docker Instructions
 
 ### Build Docker Image
 
@@ -188,11 +188,6 @@ gcloud run deploy pathmnist-classifier \
   --allow-unauthenticated \
   --memory 2Gi \
   --cpu 2
-```
-
-3. **Get the deployed URL:**
-
-```bash
 gcloud run services describe pathmnist-classifier --region us-central1 --format 'value(status.url)'
 ```
 
@@ -204,7 +199,7 @@ curl -F "file=@data/samples/class_0_sample_0.png" https://YOUR_CLOUD_RUN_URL/pre
 
 ---
 
-##  Load Testing with Locust
+## Load Testing with Locust
 
 ### Run Locust Locally
 
@@ -251,11 +246,10 @@ Run Locust targeting your Cloud Run URL and compare latency/throughput for 1, 3,
 | 3               | 100   | 35  | 180              | 320                  | 0%           |
 | 5               | 200   | 68  | 160              | 280                  | 0.1%         |
 
-*(Replace with actual results after running load tests)*
 
 ---
 
-## 📓 Notebook Highlights
+## Notebook Highlights
 
 `notebook/pathmnist_classification.ipynb` includes:
 
@@ -306,23 +300,8 @@ Run Locust targeting your Cloud Run URL and compare latency/throughput for 1, 3,
 
 ---
 
-## License
 
-This is an educational project for my MLOps summative assignment.  
-Feel free to use it as a reference, but please don't copy it directly for your own coursework!
-
----
-
-**Made with coffee and late nights for MLOps Summative 2025**
-
-## 👤 Author
-
-**Your Name**  
-GitHub: [@yourusername](https://github.com/yourusername)
-
----
-
-## 📚 References
+## References
 
 - [MedMNIST](https://medmnist.com/)
 - [TensorFlow/Keras](https://www.tensorflow.org/)
