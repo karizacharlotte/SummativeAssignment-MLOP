@@ -5,8 +5,7 @@ This is my MLOps summative project that demonstrates a complete machine learning
 ---
 
 ## Video Demo
-> **[YouTube Demo Link]** _(Add your YouTube link here after recording)_
-
+https://www.youtube.com/watch?v=w_h3Jhk3sRw
 ## Deployed URL
 > **http://localhost:8501** - Streamlit Web UI (Local Deployment)
 
