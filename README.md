@@ -5,7 +5,7 @@ This is my MLOps summative project that demonstrates a complete machine learning
 ---
 
 ## Video Demo
-> **[YouTube Demo Link]** _(Add your YouTube link here after recording)_
+> https://youtu.be/w_h3Jhk3sRw
 
 ## Deployed URL
 > **http://localhost:8501** - Streamlit Web UI (Local Deployment)
@@ -204,7 +204,7 @@ curl -F "file=@data/samples/class_0_sample_0.png" https://YOUR_CLOUD_RUN_URL/pre
 
 ---
 
-## 🧪 Load Testing with Locust
+##  Load Testing with Locust
 
 ### Run Locust Locally
 
